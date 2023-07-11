@@ -8,7 +8,7 @@
 \usepackage{graphicx}
 \setcounter{secnumdepth}{4}
 
-\title{Real-time Learning from Demonstration under Graph-World representation}
+\title{Experience-Based Path Planning Framework for Real-time Learning from Demonstration}
 \author{Natalia Leonila Quiroga Perez}
 \supervisors{Prof. Dr. Paul G. Plöger\\
 	Dr. Alex Mitrevski \\}
@@ -232,7 +232,7 @@
 	
 \section{Limitation and Deficits in the State of the Art}
 
-	In the current work of the LfD, robotic actions that are used in therapy or rehabilitation are usually pre-programmed offline, teleoperated actions, or are obtained through a kinesthetic interface. On the other hand, those systems require large sets of training data that is expensive to collect \cite{}. We aim to create a friendly end-user framework that reduces the therapist's workload and requires fewer demonstrations to perform movement imitation.
+	In the current work of the LfD, robotic actions that are used in therapy or rehabilitation are usually pre-programmed offline, teleoperated actions, or are obtained through a kinesthetic interface. On the other hand, those systems require large sets of training data that is expensive to collect \cite{Dinyari2020, Yan2010, Mandlekar2018}. We aim to create a friendly end-user framework that reduces the therapist's workload and requires fewer demonstrations to perform movement imitation.
 		
 	In this particular application, different types of robots will be used. Due to the differences between them and the clear difference with human embodiment and kinematics \cite{Koenemann2012}; it becomes a challenge to generalise the learning of human movements with direct mapping, even with computer vision methods where data processing algorithms are required for learning, replication and storage \cite{Liu2015}, so that performing actions through movements requires processing of the stored data by a learning algorithm \cite{Kober2010}. In some cases, the types of actuators used on a robot limit the movement of the joints; therefore, not all positions can be achieved and learned \cite{Almalki2020}.When using a new robot platform with a different morphology and workspace, it is necessary to implement new joint trajectories to achieve the desired postures \cite{VanPerre2015}. Thus, the proposed framework aims to work with different robots under basic tuning and simple pre-exploration to get some basic knowledge of the environment. 
 		
